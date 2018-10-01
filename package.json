@@ -1,0 +1,47 @@
+{
+  "name": "server-push-generator",
+  "version": "0.0.1",
+  "description": "Generate HTTP/2 Server Push link headers from generated static HTML.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel src -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekoeryanto/server-push-generator.git"
+  },
+  "keywords": [
+    "http/2",
+    "server-push",
+    "http2-push",
+    "generator",
+    "static",
+    "vuepress",
+    "netlify",
+    "firebase",
+    "zeit",
+    "now"
+  ],
+  "author": "Eko Eryanto <ekoeryanto@gmail.com> (https://eryanto.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekoeryanto/server-push-generator/issues"
+  },
+  "homepage": "https://github.com/ekoeryanto/server-push-generator#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "globby": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "ignores": ["/index.js"]
+  }
+}
