@@ -20,7 +20,7 @@ spg({
   urlTransformer: file => `/${file.replace(/index\.html$/, '')}`, // function to generate url from file path
   contentTransformer: ({html, matches}) => html.replace('x', 'y'), // function to manipulate html string
   backup: false, // default to backup when `contentTransformer` exists
-  raw: false, // return string headers instead of object
+  raw: false, // return object[] in headers instead of string[]
 })
 
 /* output
