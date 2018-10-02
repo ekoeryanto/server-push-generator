@@ -35,3 +35,13 @@ spg({
 ]
 */
 ```
+
+## Options
+
+All options for [globby](https://npm.im/globby) plus :
+- `raw` : boolean
+  - default to `true`
+  - customize type of returned `headers` property
+- `urlTransformer` : function (singleFilePath)
+- `contentTransformer`: function ({html, matches}),
+- `backup`: string | boolean
