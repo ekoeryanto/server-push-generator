@@ -78,7 +78,7 @@ module.exports = options => {
 
       resources.push({
         source: urlTransformer(file),
-        headers
+        headers: raw ? headers.join(', ') : headers
       })
     }
 
