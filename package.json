@@ -1,6 +1,6 @@
 {
   "name": "server-push-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate HTTP/2 Server Push link headers from generated static HTML.",
   "main": "index.js",
   "scripts": {
